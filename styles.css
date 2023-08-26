@@ -1,0 +1,40 @@
+/* Reset some default styles */
+body, h1, h2, ul, li, p, label, button, textarea, input {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #00ff84; /* Set the background color */
+    color: #333;
+}
+
+.comment-form {
+    background-color: #ffffff; /* Set a white background for the comment form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add black borders to input fields and textarea */
+.comment-form input,
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid black; /* Add black border */
+}
+
+/* Style the submitted comments */
+.submitted-comment {
+    color: #111; /* Dark black color */
+    font-family: 'CustomFont', sans-serif; /* Use your custom font */
+    font-size: 16px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the comment text bold */
+}
+
+/* Rest of your CSS styles here */
