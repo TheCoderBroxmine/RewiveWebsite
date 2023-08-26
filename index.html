@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Section</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Comment Section</h1>
+    </header>
+    
+    <main>
+        <section class="comment-form">
+            <h2 style="font-family: 'CustomFont', sans-serif;">Add a Comment</h2>
+            <form id="commentForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <label for="comment">Comment:</label>
+                <textarea id="comment" name="comment" placeholder="Your Comment" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        
+        <section class="comment-list">
+            <h2>Comments</h2>
+            <ul id="comments"></ul>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
